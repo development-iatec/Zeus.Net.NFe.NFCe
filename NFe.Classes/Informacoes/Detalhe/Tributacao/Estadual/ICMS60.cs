@@ -69,7 +69,17 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializevBCSTRet()
         {
-            return vBCSTRet.HasValue && vBCSTRet.Value > 0;
+            return vBCSTRet.HasValue;
+        }
+
+        /// <summary>
+        /// Valor do ICMS próprio do Substituto
+        /// </summary>
+        public decimal? vICMSSubstituto { get; set; }
+
+        public bool ShouldSerializevICMSSubstituto()
+        {
+            return vICMSSubstituto.HasValue;
         }
 
         /// <summary>
@@ -81,10 +91,10 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
             set { _pST = value.Arredondar(2); }
         }
 
-        public bool ShouldSerializepST()
-        {
-            return pST.HasValue && pST.Value > 0;
-        }
+       public bool ShouldSerializepST()
+       {
+           return pST.HasValue;
+       }
 
         /// <summary>
         ///     N27 - Valor do ICMS ST retido
@@ -97,7 +107,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializevICMSSTRet()
         {
-            return vICMSSTRet.HasValue && vICMSSTRet.Value > 0;
+            return vICMSSTRet.HasValue;
         }
 
         /// <summary>
