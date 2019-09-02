@@ -94,7 +94,7 @@ namespace NFe.Servicos
 
             var versaoDoisETres = new List<VersaoServico> { VersaoServico.ve200, VersaoServico.ve310 };
 
-            var svanEstados = new List<Estado> { Estado.MA, Estado.PA, Estado.PI };
+            var svanEstados = new List<Estado> { Estado.MA, Estado.PI };
 
             var svrsEstadosConsultaCadastro = new List<Estado> { Estado.AC, Estado.RN, Estado.PB, Estado.SC };
 
@@ -116,7 +116,8 @@ namespace NFe.Servicos
                 Estado.RR,
                 Estado.SC,
                 Estado.SE,
-                Estado.TO
+                Estado.TO,
+                Estado.PA
             };
 
             var svcanEstados = new List<Estado> { Estado.AC, Estado.AL, Estado.AP, Estado.DF, Estado.ES, Estado.MG, Estado.PB, Estado.RJ, Estado.RN, Estado.RO, Estado.RR, Estado.RS, Estado.SC, Estado.SE, Estado.SP, Estado.TO };
@@ -876,7 +877,7 @@ namespace NFe.Servicos
 
             #region PA
 
-            //PA usa SVAN para NFe e SRVS para NFCe. Rev: 09/09/2015
+            //PA usa SRVS para NFe e NFCe. Rev: 02/09/2019
 
             #endregion PA
 
