@@ -107,7 +107,6 @@ namespace NFe.Servicos
                 Estado.DF,
                 Estado.ES,
                 Estado.MA, //Somente NFCe. MA usa o SVAN para NFe. Rev: 09/09/2015
-                Estado.PA, //Somente NFCe. PA usa o SVAN para NFe. Rev: 09/09/2015
                 Estado.PB,
                 Estado.PI, //Somente NFCe. PI usa o SVAN para NFe. Rev: 09/09/2015
                 Estado.RJ,
@@ -1446,7 +1445,7 @@ namespace NFe.Servicos
                 {
                     #region NFe
 
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PA & estado != Estado.PI)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, estado, ModeloDocumento.NFe, "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
@@ -1513,7 +1512,7 @@ namespace NFe.Servicos
                     #region NFe
 
                     //Rev: 09/09/2015
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PA & estado != Estado.PI)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, estado, ModeloDocumento.NFe, "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
