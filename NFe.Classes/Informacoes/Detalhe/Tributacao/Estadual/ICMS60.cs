@@ -163,7 +163,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializepRedBCEfet()
         {
-            return _pRedBcEfet.GetValueOrDefault() > 0;
+            return pICMSEfet.GetValueOrDefault() > 0;
         }
 
         /// <summary>
@@ -177,7 +177,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializevBCEfet()
         {
-            return vBCEfet.GetValueOrDefault() > 0;
+            return pICMSEfet.GetValueOrDefault() > 0;
         }
 
         /// <summary>
@@ -205,7 +205,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializevICMSEfet()
         {
-            return vICMSEfet.GetValueOrDefault() > 0;
+            return pICMSEfet.GetValueOrDefault() > 0;
         }
     }
 }
