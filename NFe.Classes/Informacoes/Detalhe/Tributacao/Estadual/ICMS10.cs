@@ -103,9 +103,9 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
             set { _vBcfcp = value.Arredondar(2); }
         }
 
-        public bool ShouldSeriaizevBCFCP()
+        public bool ShouldSerializevBCFCP()
         {
-            return _vBcfcp.GetValueOrDefault() > 0;
+            return _pFcp.GetValueOrDefault() > 0;
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
             set { _pFcp = value.Arredondar(4); }
         }
 
-        public bool ShouldSeriaizepFCP()
+        public bool ShouldSerializepFCP()
         {
             return _pFcp.GetValueOrDefault() > 0;
         }
@@ -131,9 +131,9 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
             set { _vFcp = value.Arredondar(2); }
         }
 
-        public bool ShouldSeriaizevFCP()
+        public bool ShouldSerializevFCP()
         {
-            return _vFcp.GetValueOrDefault() > 0;
+            return _pFcp.GetValueOrDefault() > 0;
         }
 
         /// <summary>

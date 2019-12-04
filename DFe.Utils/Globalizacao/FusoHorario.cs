@@ -42,14 +42,14 @@ namespace DFe.Utils.Globalizacao
 
             var horarioDeVerao = TimeZoneInfo.FindSystemTimeZoneById("E. South America Standard Time").IsDaylightSavingTime(dataHora);
 
-            //if (horarioDeVerao)
-            //{
-            //return fusoHorario.Verao;
-            //}
-            //else
-            //{
-            return fusoHorario.Normal;
-            //}
+            if (horarioDeVerao)
+            {
+                return fusoHorario.Verao;
+            }
+            else
+            {
+                return fusoHorario.Normal;
+            }
         }
 
         private class FusoHorarioDto
