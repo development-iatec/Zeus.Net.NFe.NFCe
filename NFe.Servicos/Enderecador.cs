@@ -353,7 +353,7 @@ namespace NFe.Servicos
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.BA, ModeloDocumento.NFe, "https://nfe.sefaz.ba.gov.br/webservices/NFeAutorizacao4/NFeAutorizacao4.asmx"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.BA, ModeloDocumento.NFe, "https://nfe.sefaz.ba.gov.br/webservices/NFeRetAutorizacao4/NFeRetAutorizacao4.asmx"));
 
-                #endregion NFee
+                #endregion NFe
             }
 
             #endregion Produção
@@ -436,8 +436,6 @@ namespace NFe.Servicos
 
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.CE, ModeloDocumento.NFe, "https://nfe.sefaz.ce.gov.br/nfe4/services/NFeAutorizacao4?wsdl"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.CE, ModeloDocumento.NFe, "https://nfe.sefaz.ce.gov.br/nfe4/services/NFeRetAutorizacao4?wsdl"));
-
-
 
                 #endregion NFe
 
@@ -913,11 +911,10 @@ namespace NFe.Servicos
                 endServico.Add(new EnderecoServico(ServicoNFe.NfeConsultaCadastro, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/CadConsultaCadastro4?wsdl"));
 
                 if (emissao != TipoEmissao.teEPEC)
-                    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://hnfe.fazenda.mg.gov.br/nfe2/services/NFeRecepcaoEvento4?wsdl")));
+                    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeRecepcaoEvento4?wsdl")));
 
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeAutorizacao4?wsdl"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NFeRetAutorizacao4?wsdl"));
-
             }
 
             #endregion Homologação
@@ -944,11 +941,10 @@ namespace NFe.Servicos
                 endServico.Add(new EnderecoServico(ServicoNFe.NfeConsultaCadastro, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/CadConsultaCadastro4?wsdl"));
 
                 if (emissao != TipoEmissao.teEPEC)
-                    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "	https://nfe.sefaz.ms.gov.br/ws/NFeRecepcaoEvento4?wsdl")));
+                    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeRecepcaoEvento4?wsdl")));
 
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeAutorizacao4?wsdl"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/NFeRetAutorizacao4?wsdl"));
-
             }
 
             #endregion Produção
