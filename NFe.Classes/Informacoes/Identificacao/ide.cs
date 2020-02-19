@@ -147,7 +147,7 @@ namespace NFe.Classes.Informacoes.Identificacao
         [XmlElement(ElementName = "dhSaiEnt")]
         public string ProxydhSaiEnt
         {
-            get { return dhSaiEnt.ParaDataHoraStringUtc(); }
+            get { return dhSaiEnt.ParaDataHoraStringUtc(cUF); }
             set { dhSaiEnt = DateTime.Parse(value); }
         }
 
