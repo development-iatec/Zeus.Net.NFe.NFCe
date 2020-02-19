@@ -131,7 +131,7 @@ namespace NFe.Classes.Informacoes.Identificacao
         [XmlElement(ElementName = "dhEmi")]
         public string ProxyDhEmi
         {
-            get { return dhEmi.ParaDataHoraStringUtc(); }
+            get { return dhEmi.ParaDataHoraStringUtc(cUF); }
             set { dhEmi = DateTime.Parse(value); }
         }
 
