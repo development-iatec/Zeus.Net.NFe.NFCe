@@ -132,7 +132,7 @@ namespace NFe.Classes.Informacoes.Identificacao
         public string ProxyDhEmi
         {
             get { return dhEmi.ParaDataHoraStringUtc(cUF); }
-            set { dhEmi = DateTime.Parse(value); }
+            set { dhEmi = DateTimeOffset.Parse(value).DateTime; }
         }
 
         /// <summary>
@@ -148,7 +148,7 @@ namespace NFe.Classes.Informacoes.Identificacao
         public string ProxydhSaiEnt
         {
             get { return dhSaiEnt.ParaDataHoraStringUtc(cUF); }
-            set { dhSaiEnt = DateTime.Parse(value); }
+            set { dhSaiEnt = DateTimeOffset.Parse(value).DateTime; }
         }
 
         /// <summary>
