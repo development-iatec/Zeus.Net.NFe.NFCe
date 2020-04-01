@@ -315,7 +315,7 @@ namespace NFe.Classes.Informacoes.Detalhe.Tributacao.Estadual
 
         public bool ShouldSerializemotDesICMS()
         {
-            return motDesICMS.HasValue;
+            return motDesICMS.HasValue && vICMSDeson.HasValue && vICMSDeson.Value > 0;
         }
     }
 }
