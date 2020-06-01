@@ -190,6 +190,16 @@ namespace NFe.Utils.InformacoesSuplementares
                 new EnderecoConsultaPublicaNfce(Estado.SP, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx"),
                 new EnderecoConsultaPublicaNfce(Estado.SP, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaPublica.aspx"),
 
+                new EnderecoConsultaPublicaNfce(Estado.MG, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "https://nfce.fazenda.mg.gov.br/portalnfce/sistema/qrcode.xhtml"),
+                new EnderecoConsultaPublicaNfce(Estado.MG, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://nfce.fazenda.mg.gov.br/portalnfce"),
+                new EnderecoConsultaPublicaNfce(Estado.MG, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "https://nfce.fazenda.mg.gov.br/portalnfce/sistema/qrcode.xhtml"),
+                new EnderecoConsultaPublicaNfce(Estado.MG, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://hnfce.fazenda.mg.gov.br/portalnfce"),
+
+                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://apps.sefaz.to.gov.br/portal-nfce/qrcodeNFCe"),
+                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://apps.sefaz.to.gov.br/portal-nfce/consultarNFCe.jsf"),
+                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://apps.sefaz.to.gov.br/portal-nfce-homologacao/qrcodeNFCe"),
+                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaPublica.aspx"),
+
             };
 
             return endQrCodeNfce;
