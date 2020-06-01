@@ -198,7 +198,7 @@ namespace NFe.Utils.InformacoesSuplementares
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://apps.sefaz.to.gov.br/portal-nfce/qrcodeNFCe"),
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://apps.sefaz.to.gov.br/portal-nfce/consultarNFCe.jsf"),
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://apps.sefaz.to.gov.br/portal-nfce-homologacao/qrcodeNFCe"),
-                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaPublica.aspx"),
+                new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://apps.sefaz.to.gov.br/portal-nfce-homologacao/consultarNFCe.jsf"),
 
             };
 
