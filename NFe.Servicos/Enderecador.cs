@@ -608,6 +608,7 @@ namespace NFe.Servicos
                 endServico.Add(new EnderecoServico(ServicoNFe.NfeStatusServico, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://hnfce.fazenda.mg.gov.br/nfce/services/NFeStatusServico4"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://hnfce.fazenda.mg.gov.br/nfce/services/NFeAutorizacao4"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://hnfce.fazenda.mg.gov.br/nfce/services/NFeRetAutorizacao4"));
+                endServico.Add(new EnderecoServico(ServicoNFe.RecepcaoEventoCancelmento, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://hnfce.fazenda.mg.gov.br/nfce/services/NFeRecepcaoEvento4"));
             }
 
             #endregion Homologação
@@ -632,6 +633,7 @@ namespace NFe.Servicos
                 endServico.Add(new EnderecoServico(ServicoNFe.NfeStatusServico, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://nfce.fazenda.mg.gov.br/nfce/services/NFeStatusServico4"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://nfce.fazenda.mg.gov.br/nfce/services/NFeAutorizacao4"));
                 endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://nfce.fazenda.mg.gov.br/nfce/services/NFeRetAutorizacao4"));
+                endServico.Add(new EnderecoServico(ServicoNFe.RecepcaoEventoCancelmento, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.MG, ModeloDocumento.NFCe, "https://nfce.fazenda.mg.gov.br/nfce/services/NFeRecepcaoEvento4"));
             }
 
             #endregion Produção
