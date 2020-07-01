@@ -75,9 +75,9 @@ namespace NFe.Utils.InformacoesSuplementares
         {
             var endQrCodeNfce = new List<EnderecoConsultaPublicaNfce>
             {
-                new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://www.sefaznet.ac.gov.br/nfce/qrcode?"),
+                new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://www.sefaznet.ac.gov.br/nfce/qrcode"),
                 new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://www.sefaznet.ac.gov.br/nfce/"),
-                new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://hml.sefaznet.ac.gov.br/nfce/qrcode?"),
+                new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://hml.sefaznet.ac.gov.br/nfce/qrcode"),
                 new EnderecoConsultaPublicaNfce(Estado.AC, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://hml.sefaznet.ac.gov.br/nfce/"),
 
                 new EnderecoConsultaPublicaNfce(Estado.AL, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://nfce.sefaz.al.gov.br/QRCode/consultarNFCe.jsp"),
