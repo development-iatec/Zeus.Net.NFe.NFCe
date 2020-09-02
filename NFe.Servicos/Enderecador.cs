@@ -116,7 +116,8 @@ namespace NFe.Servicos
                 Estado.SC,
                 Estado.SE,
                 Estado.TO,
-                Estado.PA
+                Estado.PA,
+                Estado.PE
             };
 
             var svcanEstados = new List<Estado> { Estado.AC, Estado.AL, Estado.AP, Estado.DF, Estado.ES, Estado.MG, Estado.PB, Estado.RJ, Estado.RN, Estado.RO, Estado.RR, Estado.RS, Estado.SC, Estado.SE, Estado.SP, Estado.TO };
@@ -883,6 +884,7 @@ namespace NFe.Servicos
 
             foreach (var emissao in emissaoComum)
             {
+
                 //if (emissao != TipoEmissao.teEPEC)
                 //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/RecepcaoEvento")));
                 //endServico.Add(new EnderecoServico(ServicoNFe.NfeRecepcao, VersaoServico.ve200, TipoAmbiente.taHomologacao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfehomolog.sefaz.pe.gov.br/nfe-service/services/NfeRecepcao2"));
@@ -914,6 +916,7 @@ namespace NFe.Servicos
 
             foreach (var emissao in emissaoComum)
             {
+
                 //if (emissao != TipoEmissao.teEPEC)
                 //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/RecepcaoEvento")));
                 //endServico.Add(new EnderecoServico(ServicoNFe.NfeRecepcao, VersaoServico.ve200, TipoAmbiente.taProducao, emissao, Estado.PE, ModeloDocumento.NFe, "https://nfe.sefaz.pe.gov.br/nfe-service/services/NfeRecepcao2"));
