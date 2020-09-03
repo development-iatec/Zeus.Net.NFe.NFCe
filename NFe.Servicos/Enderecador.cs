@@ -524,6 +524,7 @@ namespace NFe.Servicos
                     endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.GO, modelo, "https://homolog.sefaz.go.gov.br/nfe/services/NFeAutorizacao4?wsdl"));
                     endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.GO, modelo, "https://homolog.sefaz.go.gov.br/nfe/services/NFeRetAutorizacao4?wsdl"));
                     endServico.Add(new EnderecoServico(ServicoNFe.NfceAdministracaoCSC, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.GO, modelo, "https://homolog.sefaz.go.gov.br/nfe/services/v2/CscNFCe?wsdl"));
+                    endServico.Add(new EnderecoServico(ServicoNFe.RecepcaoEventoCancelmento, VersaoServico.ve400, TipoAmbiente.taHomologacao, emissao, Estado.GO, modelo, "https://homolog.sefaz.go.gov.br/nfe/services/v2/CscNFCe?wsdl"));
                 }
             }
 
@@ -556,7 +557,7 @@ namespace NFe.Servicos
                     endServico.Add(new EnderecoServico(ServicoNFe.NfeConsultaCadastro, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.GO, modelo, "https://nfe.sefaz.go.gov.br/nfe/services/CadConsultaCadastro4?wsdl"));
 
                     if (emissao != TipoEmissao.teEPEC)
-                        endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, Estado.GO, ModeloDocumento.NFe, "https://nfe.sefaz.go.gov.br/nfe/services/NFeRecepcaoEvento4?wsdl")));
+                        endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.GO, ModeloDocumento.NFe, "https://nfe.sefaz.go.gov.br/nfe/services/NFeRecepcaoEvento4?wsdl")));
 
                     endServico.Add(new EnderecoServico(ServicoNFe.NFeAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.GO, modelo, "https://nfe.sefaz.go.gov.br/nfe/services/NFeAutorizacao4?wsdl"));
                     endServico.Add(new EnderecoServico(ServicoNFe.NFeRetAutorizacao, VersaoServico.ve400, TipoAmbiente.taProducao, emissao, Estado.GO, modelo, "https://nfe.sefaz.go.gov.br/nfe/services/NFeRetAutorizacao4?wsdl"));
