@@ -136,9 +136,9 @@ namespace NFe.Utils.InformacoesSuplementares
                 new EnderecoConsultaPublicaNfce(Estado.PB, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "https://www6.receita.pb.gov.br/atf/seg/SEGf_AcessarFuncao.jsp?cdFuncao=FIS_1410"),
 
                 new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://nfce.sefaz.pe.gov.br/nfce-web/consultarNFCe"),
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://nfce.sefaz.pe.gov.br/nfce-web/entradaConsNfce"),
+                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "nfce.sefaz.pe.gov.br/nfce/consulta"),
                 new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://nfcehomolog.sefaz.pe.gov.br/nfce-web/consultarNFCe"),
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://nfcehomolog.sefaz.pe.gov.br/nfce-web/entradaConsNfce"),
+                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "nfce.sefaz.pe.gov.br/nfce/consulta"),
 
                 new EnderecoConsultaPublicaNfce(Estado.PI, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://webas.sefaz.pi.gov.br/nfceweb/consultarNFCe.jsf"),
                 new EnderecoConsultaPublicaNfce(Estado.PI, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://webas.sefaz.pi.gov.br/nfceweb/consultarNFCe.jsf"),
@@ -194,11 +194,6 @@ namespace NFe.Utils.InformacoesSuplementares
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "www.sefaz.to.gov.br/nfce/consulta"),
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://apps.sefaz.to.gov.br/portal-nfce-homologacao/qrcodeNFCe"),
                 new EnderecoConsultaPublicaNfce(Estado.TO, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://homologacao.sefaz.to.gov.br/nfce/consulta.jsf"),
-
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://nfce.sefaz.pe.gov.br/nfce-web/consultarNFCe"),
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://nfce.sefaz.pe.gov.br/nfce/consulta"),
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlQrCode, "http://nfcehomolog.sefaz.pe.gov.br/nfce-web/consultarNFCe"),
-                new EnderecoConsultaPublicaNfce(Estado.PE, TipoAmbiente.taHomologacao, TipoUrlConsultaPublica.UrlConsulta, "http://homologacao.sefaz.to.gov.br/nfce/consulta.jsf"),
 
                 new EnderecoConsultaPublicaNfce(Estado.GO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlQrCode, "http://nfe.sefaz.go.gov.br/nfeweb/sites/nfce/danfeNFCe"),
                 new EnderecoConsultaPublicaNfce(Estado.GO, TipoAmbiente.taProducao, TipoUrlConsultaPublica.UrlConsulta, "http://www.nfce.go.gov.br/post/ver/214344/consulta-nfce"),
