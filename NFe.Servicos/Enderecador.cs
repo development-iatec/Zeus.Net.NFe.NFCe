@@ -1503,7 +1503,7 @@ namespace NFe.Servicos
                     #region NFe
 
                     //Rev: 09/09/2015
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI && estado != Estado.PE)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, estado, ModeloDocumento.NFe, "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
