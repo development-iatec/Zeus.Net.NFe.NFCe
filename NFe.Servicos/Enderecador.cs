@@ -1436,7 +1436,7 @@ namespace NFe.Servicos
                 {
                     #region NFe
 
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI && estado != Estado.PE)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, estado, ModeloDocumento.NFe, "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
@@ -1890,6 +1890,7 @@ namespace NFe.Servicos
         /// <param name="servico"></param>
         /// <param name="cfgServico"></param>
         /// <returns></returns>
+        /// 
         public static string ObterUrlServico(ServicoNFe servico, ConfiguracaoServico cfgServico)
         {
             var definicao = from d in ListaEnderecos
