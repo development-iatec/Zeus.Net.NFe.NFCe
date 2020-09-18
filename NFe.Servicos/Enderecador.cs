@@ -94,7 +94,7 @@ namespace NFe.Servicos
 
             var versaoDoisETres = new List<VersaoServico> { VersaoServico.ve200, VersaoServico.ve310 };
 
-            var svanEstados = new List<Estado> { Estado.MA, Estado.PI };
+            var svanEstados = new List<Estado> { Estado.MA };
 
             var svrsEstadosConsultaCadastro = new List<Estado> { Estado.AC, Estado.RN, Estado.PB, Estado.SC };
 
@@ -1436,7 +1436,7 @@ namespace NFe.Servicos
                 {
                     #region NFe
 
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI && estado != Estado.PE)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PE)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taHomologacao, emissao, estado, ModeloDocumento.NFe, "https://nfe-homologacao.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
@@ -1503,7 +1503,7 @@ namespace NFe.Servicos
                     #region NFe
 
                     //Rev: 09/09/2015
-                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PI && estado != Estado.PE)
+                    if (estado != Estado.BA & estado != Estado.MA & estado != Estado.PE)
                     {
                         //if (emissao != TipoEmissao.teEPEC)
                         //    endServico.AddRange(eventoCceCanc.Select(servicoNFe => new EnderecoServico(servicoNFe, VersaoServico.ve100, TipoAmbiente.taProducao, emissao, estado, ModeloDocumento.NFe, "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx")));
