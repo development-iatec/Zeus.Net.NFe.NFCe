@@ -201,6 +201,8 @@ namespace NFe.Classes.Informacoes.Identificacao
         /// </summary>
         public PresencaComprador? indPres { get; set; } //Nulable por conta da v2.00
 
+        public int indIntermed { get; set; }
+
         /// <summary>
         ///     B26 - Processo de emissão utilizado com a seguinte codificação:
         /// </summary>
